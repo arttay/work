@@ -1,0 +1,9 @@
+<div  class="col-md-12 row lineItemQty">
+    <input id="quantity" value="<%= obj.qty %>" size="2" class="dr_qtyInput form-control input-sm" type="text" aria-label="Text input: quantity of item in cart"/>
+    <div class="col-md-12 row voffset2">
+        <a href="javascript://" rel="dr-refreshCartQty" data-lineItemId="<%= obj.lineitemid %>" aria-label="Refresh quantity of cart">Refresh</a>
+    </div>
+    <div class="col-md-12 row voffset">
+        <a href="javascript://" rel="dr-removeCartQty" data-lineItemId="<%= obj.lineitemid %>" aria-label="Remove item from cart">Remove</a>
+    </div>
+</div>
